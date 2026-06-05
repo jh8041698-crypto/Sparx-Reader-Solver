@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       const response = await ai.models.generateContent({
-        model: "gemini-2.0-flash",
+        model: "gemini-2.5-flash",
         contents: "Say something along the lines that the API Key provided works",
       });
       alert(response.text);
