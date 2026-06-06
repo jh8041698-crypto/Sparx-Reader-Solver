@@ -13,7 +13,7 @@ async function generateText(question, extract) {
   const ai = new GoogleGenAI({ apiKey: apiKey });
 
   const chat = ai.chats.create({
-    model: "gemini-2.0-flash",
+    model: "gemini-3.1-flash-lite",
     history: [
       {
         role: "user",
